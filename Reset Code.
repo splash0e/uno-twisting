@@ -1,0 +1,9 @@
+void(* resetFunc) (void) = 0;  // declare reset function at address 0
+
+void setup() {
+  delay(3000);  // wait 3 seconds
+  resetFunc();  // reset Arduino
+}
+
+void loop() {
+}
