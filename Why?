@@ -1,0 +1,25 @@
+Aurdino UNO
+The Arduino Uno R3 is a beginner-friendly microcontroller board used for electronics projects, automation, robotics, and embedded systems.
+
+Specifications-
+Core Specifications
+Microcontroller: ATmega328P
+Operating Voltage: 5V
+Input Voltage: 7–12V recommended
+Digital I/O Pins: 14 (6 PWM)
+Analog Input Pins: 6
+Clock Speed: 16 MHz
+Flash Memory: 32 KB
+
+
+why using it ti Drive speaker and LED?
+
+This project demonstrates how the Arduino Uno can simultaneously control an audio output (speaker) and visual indicators (LEDs) using digital signal generation and timing control.
+The system generates musical tones through a connected speaker while synchronizing LED patterns with the rhythm and frequency of the sound. It showcases real-time multitasking using microcontroller-based timing logic.
+
+why Aurdino-
+1. It provides stable 5V logic-level outputs
+2. It supports PWM and tone generation via hardware timers
+3. It can control multiple output devices simultaneously
+4. It allows precise timing control using delay() and millis()
+5. It is simple, accessible, and ideal for embedded experimentation
