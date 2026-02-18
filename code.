@@ -1,0 +1,40 @@
+int speakerPin = 8;
+int led1 = A4;
+int led2 = A5;
+
+void playNote(int note, int duration, int ledPin) {
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  digitalWrite(ledPin, HIGH);  // Turn selected LED ON
+  tone(speakerPin, note, duration);
+  delay(duration);
+
+  noTone(speakerPin);
+  digitalWrite(ledPin, LOW);   // Turn LED OFF
+  delay(50);  // small gap for "sax breath"
+}
+
+void setup() {
+  pinMode(speakerPin, OUTPUT);
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+}
+
+void loop() {
+
+  // Smooth sax-like minor melody
+  playNote(440, 250, led1);  // A4
+  playNote(494, 250, led2);  // B4
+  playNote(523, 300, led1);  // C5
+  playNote(494, 250, led2);
+  playNote(440, 300, led1);
+
+  playNote(392, 250, led2);  // G4
+  playNote(440, 300, led1);
+  playNote(523, 350, led2);
+  playNote(587, 400, led1);  // D5
+  playNote(523, 500, led2);
+
+  delay(500);  // repeat pause
+}
