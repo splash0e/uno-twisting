@@ -1,2 +1,4 @@
 # uno-twisting
-This repository contains a simple but effective circuits that allow an LED to blink based on music/audio signal from a speaker. Generally, depends upon the Low Freq. generating form Amplifier's for the respective Driver Unit.
+This repository contains a Showcase of Aurdino UNO in everyday. such as driving a speaker as well as LEDs respectively blinking ad per the coded signal In the UNO,
+one of the effective way to drive speakers with the help of (PWM) pulse width modulation waves.
+
