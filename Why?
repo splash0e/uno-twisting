@@ -2,7 +2,6 @@ Aurdino UNO
 The Arduino Uno R3 is a beginner-friendly microcontroller board used for electronics projects, automation, robotics, and embedded systems.
 
 Specifications-
-Core Specifications
 Microcontroller: ATmega328P
 Operating Voltage: 5V
 Input Voltage: 7–12V recommended
